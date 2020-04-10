@@ -25,6 +25,13 @@ IMG.imgleft{
 h1.txtcentrado {
 text-align:center;
 }
+h3.txtcentrado {
+text-align:center;
+}
+h4.txtresaltado {
+color: #005883;
+text-align:center;
+}
 nav{
     background-color: #F47920;
     text-align: center;
