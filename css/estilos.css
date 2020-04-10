@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background-color: black;
+    background-color: white;
     color: white;
 }
 nav, header, .contenedor, footer{
@@ -11,26 +11,35 @@ nav, header, .contenedor, footer{
     margin: auto;
     border-radius: 0.4em;
 }
+IMG.imgcenter{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      border:none;
+}
+h1.txtcentrado {
+text-align:center;
+}
 nav{
-    background-color: brown;
+    background-color: #F47920;
     text-align: center;
 }
 header{
-    background-color: darkcyan;
-    display: flex;
+    background-color: #005883;
+    display: block;
     justify-content: center;
 }
 .contenedor{
-  background-color: burlywood;  
+  background-color: white;  
 }
 .central{
-    background-color: chocolate;
+    background-color: white;
     display: inline-block;
     vertical-align: top;
     width: 70%;
 }
 footer{
-    background-color: darkgreen;
+    background-color: #005883;
     text-align: center;
 }
 aside{
@@ -65,5 +74,5 @@ li a, boton{
     display: block;
 }
 li a:hover{
-    background-color: red;
-}
+    background-color: #005883;
+ }
