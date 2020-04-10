@@ -17,6 +17,11 @@ IMG.imgcenter{
       margin-right: auto;
       border:none;
 }
+IMG.imgleft{
+      display: block;
+      margin-left: 1px;
+      border:none;
+}
 h1.txtcentrado {
 text-align:center;
 }
@@ -30,7 +35,8 @@ header{
     justify-content: center;
 }
 .contenedor{
-  background-color: white;  
+  background-color: white;
+  color: #333333; 
 }
 .central{
     background-color: white;
@@ -38,14 +44,20 @@ header{
     vertical-align: top;
     width: 70%;
 }
+.creditos{
+    background-color: #808080;
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+}
 footer{
     background-color: #005883;
     text-align: center;
 }
 aside{
-    background-color: violet;
+    background-color: white;
     display: inline-block;
-    width: 28%;
+    width: 25%;
     vertical-align: top;
 }
 /* Menu*/
