@@ -82,7 +82,6 @@ li a, boton{
     display: none;
     background-color: ghostwhite;
     position: absolute;
-
 }
 .listaDesplegable a{
     color: black;
@@ -94,4 +93,4 @@ li a, boton{
 }
 li a:hover{
     background-color: #005883;
- }
+}

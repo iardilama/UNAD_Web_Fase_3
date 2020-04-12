@@ -1,16 +1,26 @@
-.contenedor .central article:hover{
+.contenedor .central .article:hover{
     background-color: #b3b3b3;
-    
-    
 }
+
 article{
     border:solid 0.5px;
     border-radius: 5px;
-    padding: 20px 20px;
+    padding: 10px 10px;
     margin-bottom: 12px;
     margin-left: 10px;
-    width: 30%;
-    box-shadow: 5px 10px 10px rgb(0, 88, 131);
+    width: 25%;
+    box-shadow: 5px 10px 10px rgb(244,121,32);
     display: inline-block;
 }
-
+.big{
+    width: 100%;
+  	text-align: center;
+    border:solid 0.5px;
+    border-radius: 5px;
+    padding: 10px 10px;
+    margin-bottom: 12px;
+    margin-left: 10px;
+    width: 82%;
+    box-shadow: 5px 10px 10px rgb(244,121,32);
+    display: inline-block;
+}
